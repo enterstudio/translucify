@@ -1,0 +1,19 @@
+{
+  "name": "translucify",
+  "version": "1.0.0",
+  "description": "Chrome extension to mostly remove page elements from view.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joemaller/translucify.git"
+  },
+  "author": "Joe Maller <joe@ideasonpurpose.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joemaller/translucify/issues"
+  },
+  "homepage": "https://github.com/joemaller/translucify#readme"
+}

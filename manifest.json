@@ -1,0 +1,21 @@
+{
+	"manifest_version": 2,
+	"name": "Translucify",
+	"description": "Chrome extension to mostly remove page elements from view.",
+	"version": "1.0.0",
+	"background": {
+		"scripts": [
+			"translucify.js"
+		]
+	},
+	"browser_action": {
+		"default_icon": "icon.png",
+		"default_popup": "popup.html",
+		"default_title": "Hello"
+	},
+	"permissions": [
+		"activeTab",
+		"contextMenus",
+		"https://ajax.googleapis.com/"
+	]
+}
