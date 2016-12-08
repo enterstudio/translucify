@@ -4,6 +4,7 @@
 	"description": "Chrome extension to mostly remove page elements from view.",
 	"version": "1.0.0",
 	"background": {
+			"persistent": false,
 		"scripts": [
 			"translucify.js"
 		]
@@ -17,5 +18,9 @@
 		"activeTab",
 		"contextMenus",
 		"https://ajax.googleapis.com/"
-	]
+	],
+	"content_scripts": [{
+			"matches": ["*://*/*"],
+			"js": ["content_script.js"]
+		}]
 }
